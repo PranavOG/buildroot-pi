@@ -49,8 +49,17 @@ mkdir -p ~/projects/downloads
 
 ## Clone the Repository
 
+#### SSH (recommended — requires [SSH key set up with GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh))
+
 ```bash
 git clone git@github.com:PranavOG/buildroot-pi.git
+cd buildroot-pi
+```
+
+#### HTTPS (no SSH key needed — will prompt for credentials or use a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens))
+
+```bash
+git clone https://github.com/PranavOG/buildroot-pi.git
 cd buildroot-pi
 ```
 
