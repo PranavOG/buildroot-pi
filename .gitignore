@@ -1,16 +1,29 @@
-/output*
-/dl
+# Build output and downloads
+/output*/
+/dl/
 /.auto.deps
+
+# Generated config files (defconfigs in configs/ are tracked instead)
+/.config
 /.config.cmd
 /.config.old
 /..config.tmp
-/.config
+/.defconfig
+
+# Build logs
+/br.log
+
+# Compilation artifacts
 *.depend
 *.o
-/*.patch
-/*.diff
 *.orig
 *.rej
 *~
 *.pyc
-/br.log
+
+# Generated images
+*.img
+
+# Editor / patch debris
+/*.patch
+/*.diff

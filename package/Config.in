@@ -588,6 +588,7 @@ endmenu
 	source "package/pps-tools/Config.in"
 	source "package/pru-software-support/Config.in"
 	source "package/pulseview/Config.in"
+	source "package/pylon/Config.in"
 	source "package/qoriq-cadence-dp-firmware/Config.in"
 	source "package/qrtr/Config.in"
 	source "package/rasdaemon/Config.in"
