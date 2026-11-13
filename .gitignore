@@ -27,3 +27,6 @@
 # Editor / patch debris
 /*.patch
 /*.diff
+
+# Gemini / Antigravity AI artifacts
+.gemini/
